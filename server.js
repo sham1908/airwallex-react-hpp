@@ -25,6 +25,7 @@ app.post('/create-payment-intent', async (req, res) => {
 
     try {
         const response = await axios.post('https://api-demo.airwallex.com/api/v1/pa/payment_intents/create', {
+            request_id: `${Date.now()}`, // Unique ID for the request
             amount: amount,
             currency: currency,
             merchant_order_id: merchant_order_id,
