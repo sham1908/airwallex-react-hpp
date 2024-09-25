@@ -4,14 +4,15 @@ This is the integration of a simple ecommerce app (built in React) with Airwalle
 
 **How to run the app:**
 
-1. Create a new Auth token
-2. Update the `AIRWALLEX_BEARER_TOKEN` int `.env` file 
-3. On the home directory: `npm start` --> this will run the backend
-4. Open a second terminal go to /store and again `npm start` --> this will run the frontend
-5. Open the http://localhost:3000/
-6. Select any products and add them to the cart
-7. Click on the `Purchase Items!` button
-8. The user is redirected to Hosted Payment Page, hosted by Airwallex, where he can complete the payment
+1. On the home directory create an `.env` file to store credentials
+2. Create a new Auth token
+3. Add a new  `AIRWALLEX_BEARER_TOKEN` variable equal to the Auth token
+4. On the home directory: `npm start` --> this will run the backend
+5. Open a second terminal go to /store and again `npm start` --> this will run the frontend
+6. Open the http://localhost:3000/
+7. Select any products and add them to the cart
+8. Click on the `Purchase Items!` button
+9. The user is redirected to Hosted Payment Page, hosted by Airwallex, where he can complete the payment
 
 
 **Technical details of the integration**
