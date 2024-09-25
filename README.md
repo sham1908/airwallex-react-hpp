@@ -5,7 +5,7 @@ Steps for the Integration
 1. Create the backend to hit the Airwallex API (https://api-demo.airwallex.com/api/v1/pa/payment_intents/create) and create the payment intent 
 2. For this call we need: request_id, amount, currency, merchant_order_id, return_url and order object
 3. These fields need to be sent from the front end
-4. In front end NavBar.js)
+4. In front end NavBar.js
     - Initialise Airwallex
     - Getting amount, currency
     - Hit the backend and send amount, currency
